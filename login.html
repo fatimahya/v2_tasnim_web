@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه لاگین مدیر</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>نشریه دیجیتال</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">خانه</a></li>
+                <li><a href="publications.html">نشریه</a></li>
+                <li><a href="about.html">درباره ما</a></li>
+                <li><a href="contact.html">ارتباط با ما</a></li>
+                <li><a href="login.html">لاگین مدیر</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="login">
+            <h2>ورود به حساب کاربری مدیر</h2>
+            <form id="login-form">
+                <label for="username">نام کاربری:</label>
+                <input type="text" id="username" required>
+                <label for="password">رمز عبور:</label>
+                <input type="password" id="password" required>
+                <button type="submit">ورود</button>
+            </form>
+            <p id="error-message" style="color: red;"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; ۱۴۰۳ نشریه تسنیم. تمامی حقوق محفوظ است.</p>
+    </footer>
+
+    <script src="login.js"></script>
+</body>
+</html>
